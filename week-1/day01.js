@@ -25,26 +25,3 @@ console.log(user);
 
 //?jawaban untuk soal 3
 //saat copy di push nums ikut berganti karna copy mengambil data dari nums/ copy itu terhubung dengan nums
-
-//?prediksi output sebelum menjalankan.
-/*outputnya
-1
-2
-1,2,3
-error karna mengubah nilai dari property const x:1 menjadi x:2, dan stelah kujalankan ternyata error nya lebih awal di q
-*/
-if (true) {
-  var p = 1;
-  let q = 2;
-}
-console.log(p);
-console.log(q);
-
-const a = [1, 2];
-const b = [...a];
-b.push(3);
-console.log(a);
-
-const c = { x: 1 };
-c = { x: 2 };
-console.log(c);
