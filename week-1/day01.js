@@ -1,6 +1,6 @@
 //?jawaban untuk soal 2a-2e
 const nums = [1, 2, 3, 4, 5];
-const z = nums; //membuat variabel baru yang mengambil data dari nums.
+const z = nums; // z mengambil refrence dari nums.
 
 z.push(6); // z menggunakan array yang sama dengan nums. jadi 1 array dipakai 2 variabel.
 console.log(nums);
@@ -15,7 +15,7 @@ let user = {
 
 console.log(user.hobbies[1]); //output badminton
 
-user.city = "trenggalek"; // menambahkan object city ke user.
+user.city = "trenggalek"; // menambahkan property city ke user.
 
 console.log(user); // output name,age,hobbies,city.
 
