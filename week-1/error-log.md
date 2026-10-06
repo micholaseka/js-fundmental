@@ -2,10 +2,10 @@ _salah_:
 aku kira const mengunci isi object,
 
 _penyebab_:
-karna let terikat function
+karna di beberapa pembelajaran aku menganalogikan const itu tidak bisa diubah.
 
 _yang benar_:
-let dan const itu terikat object, sedangkan var itu terikat function. jadi ketika disebuah function ditempatkan let/ const, maka akan error.
+const itu bisa diubah nilainya, tapi tidak bisa dipindah tempatnya. ibarat laci yang berisi alat tulis, bisa diubah isinya tapi lacinya terkunci lem kayu tidak bisa dipindah.
 
 ---
 
@@ -16,7 +16,7 @@ _penyebab_:
 karna let q = 2 terikan block {}
 
 _yang benar_:
-variabel yang bisa terikat block itu var, sedangkan let dan const tidak.
+variabel yang bisa terikat function itu var, sedangkan let dan const itu tidak.
 
 ---
 
