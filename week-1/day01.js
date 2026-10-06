@@ -2,9 +2,9 @@
 const nums = [1, 2, 3, 4, 5];
 const z = nums; //membuat variabel baru yang mengambil data dari nums.
 
-z.push(6); // b berperan seperti jembatan penghubung ke nums, karna b mengambil nilai dari nums secara realtime.
+z.push(6); // z menggunakan array yang sama dengan nums. jadi 1 array dipakai 2 variabel.
 console.log(nums);
-z.shift(0);
+z.shift(); // sebelumnya z.shift(0) tapi yang benar () tanpa nomor index karna memang tidak dibutuhkan.
 console.log(nums);
 
 let user = {
@@ -13,11 +13,11 @@ let user = {
   hobbies: ["open vscode", "badminton", "lari kalcer"],
 };
 
-console.log(user.hobbies[1]);
+console.log(user.hobbies[1]); //output badminton
 
-user.city = "trenggalek";
+user.city = "trenggalek"; // menambahkan object city ke user.
 
-console.log(user);
+console.log(user); // output name,age,hobbies,city.
 
 delete user.age; //untuk menghapus property didalam object bisa menggunakan delete objek.property;
 
