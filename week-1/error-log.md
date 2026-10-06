@@ -2,10 +2,10 @@ _salah_:
 aku kira const mengunci isi object,
 
 _penyebab_:
-karna dari beberapa pembelajaran aku mengira const itu tidak bisa diubah.
+karna let terikat function
 
 _yang benar_:
-ternyata const itu mengunci baris const itu. const yang sudah dibuat pertama tidak bisa ditulis lagi, tapi bisa diubah isi objectnya.
+let dan const itu terikat object, sedangkan var itu terikat function. jadi ketika disebuah function ditempatkan let/ const, maka akan error.
 
 ---
 
@@ -21,21 +21,21 @@ variabel yang bisa terikat block itu var, sedangkan let dan const tidak.
 ---
 
 _salah_:
-tebak console.log(q) hasilnya 2.
+pakai nama user 2 kali di 1 file.
 
 _penyebab_:
-karna let q = 2 terikan block {}
+karna lupa.
 
 _yang benar_:
-variabel yang bisa terikat block itu var, sedangkan let dan const tidak.
+nama dari variabel tidak boleh sama, misal menulis user0 maka selanjutnya tidak bisa membuat variabel bernama user0 lagi. harus beda misalnya user1.
 
 ---
 
 _salah_:
-tebak console.log(q) hasilnya 2.
+menebak console.log(a) hasilnya 1,2,3
 
 _penyebab_:
-karna let q = 2 terikan block {}
+karna aku mengira const b mengambil refrence dari const a
 
 _yang benar_:
-variabel yang bisa terikat block itu var, sedangkan let dan const tidak.
+const b = [...a]; tidak mengambil refrence dari a, tetapi membuat array baru. jadi output dari console.log a adalah 1,2
