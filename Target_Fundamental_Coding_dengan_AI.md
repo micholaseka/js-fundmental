@@ -1,4 +1,4 @@
-# TARGET FUNDAMENTAL — CODING DENGAN AI
+    # TARGET FUNDAMENTAL — CODING DENGAN AI
 
 **Pemilik:** Miko  
 **Dibuat:** 12 Oktober 2026  
